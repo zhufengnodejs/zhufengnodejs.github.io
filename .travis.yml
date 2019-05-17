@@ -19,6 +19,7 @@ after_script:
   - git config user.email "zhufengnodejs@126.com"
   - git add .
   - git commit -m "Update docs"
+  - echo $token
   - git push --force --quiet "https://317b2b994cc3f6c88d45ddfcd4727393047e564e@github.com/zhufengnodejs/zhufengnodejs.github.io.git" master:master
 
 
